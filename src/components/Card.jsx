@@ -22,7 +22,7 @@ const Card = (props) => {
                     <img src={star} alt="star icon" className="star" />
                     <p className="rating-texts">
                         <span className="rating"> {props.stats.rating} </span> 
-                        (<span className="review-count">{props.stats.review_count}</span>) • 
+                        (<span className="review-count">{props.stats.reviewCount}</span>) • 
                         <span className="location"> {props.location} </span>
                     </p>
                 </div>
