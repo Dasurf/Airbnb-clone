@@ -1,0 +1,60 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    font-family: Poppins, sans-serif;
+    max-width: 300px;
+    flex: 0 0 auto;
+}
+
+.card-image {
+    position: relative;
+    width: 100%;  
+}
+
+.card-image > img {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.card-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 5px;
+    font-weight: 400;
+    color: #222222;
+}
+
+
+.star {
+    width: 18px;
+    height: 18px;
+}
+
+.rating-texts {
+    color: gray;
+}
+
+.card-texts {
+    font-size: 1.1rem;
+    font-weight: 300;
+    color: #222222;
+    line-height: 20px;
+}
+
+.card-bottom {
+    padding: 0;
+    line-height: 0%;
+}

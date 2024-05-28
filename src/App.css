@@ -1,0 +1,35 @@
+nav {
+  padding: 30px 40px;
+  box-shadow: 0 5px 15px rgba(200, 200, 200, 0.4);
+}
+
+nav > img {
+  width: 100px;
+}
+
+header > img {
+  width: 500px;
+  margin-top: 50px;
+  align-self: center;
+}
+
+.header-texts {
+  padding: 30px 40px;
+}
+
+.big-text {
+  font-weight: 600;
+}
+
+.small-text {
+  font-weight: 300;
+}
+
+.card-list {
+  display: flex;
+  padding: 0 30px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+}
+
+
